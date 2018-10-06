@@ -6,7 +6,9 @@ import static com.kichuk.helloworldmvc.util.UtilConstants.*;
 
 public class Model {
     public String getHelloWorldMessage() {
+        System.out.println(INPUT_HELLO);
         String firstInput = validAndReturnInput(HELLO_WORD);
+        System.out.println(INPUT_WORLD);
         String secondInput = validAndReturnInput(WORLD_WORD);
 
         return firstInput + SPACE + secondInput;
@@ -20,7 +22,6 @@ public class Model {
             System.out.println(INCORRECT_INPUT);
             input = sc.next();
         }
-
         return input;
     }
 }
