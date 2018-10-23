@@ -3,6 +3,10 @@ package com.kichuk.regularexpressions.model;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Created by Serhii Kichuk
+ */
+
 @Getter
 @Setter
 public class Note {
@@ -17,6 +21,7 @@ public class Note {
     private String secondMobilePhone;
     private String email;
     private String skype;
+    private String adress;
     private String indexOfResidence;
     private String town;
     private String street;

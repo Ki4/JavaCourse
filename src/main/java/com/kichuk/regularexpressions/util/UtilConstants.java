@@ -1,5 +1,8 @@
 package com.kichuk.regularexpressions.util;
 
+/**
+ * Constants expressions that are often used in program
+ */
 public class UtilConstants {
     public static final String INCORRECT_INPUT_DATA_MESSAGE = "Incorrect input data, try again!";
     public static final String INPUT_NAME = "Input your name: ";
@@ -17,4 +20,8 @@ public class UtilConstants {
     public static final String INPUT_STREET = "Input your street: ";
     public static final String INPUT_HOUSE_NUMBER = "Input your house number: ";
     public static final String INPUT_APARTMENT_NUMBER = "Input your apartment number: ";
+    public static final String COMA = ",";
+    public static final String POINT = ".";
+    public static final String SPACE = " ";
+    public static final String FOR_USING_DATE_PATTERN = "dd.mm.yyyy hh:mm";
 }
