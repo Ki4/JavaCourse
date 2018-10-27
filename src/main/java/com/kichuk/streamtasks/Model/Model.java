@@ -6,18 +6,14 @@ import java.util.Scanner;
 
 public class Model {
     private View view;
-    private Service service;
+    private Service service = new Service();
     private static int multiplyNumber;
 
     private int arrayLength;
     private static final int MIN_NUMBER_FOR_RANDOM_FUNCTION = -10;
     private static final int MAX_NUMBER_FOR_RANDOM_FUNCTION = 20;
 
-    public int[] array;
-
-    public static int getMultiplyNumber() {
-        return multiplyNumber;
-    }
+    private int[] array;
 
     public Model() {
 
@@ -27,8 +23,8 @@ public class Model {
         this.view = view;
     }
 
-    public Model(Service service) {
-        this.service = service;
+    public static int getMultiplyNumber() {
+        return multiplyNumber;
     }
 
     public void createArray() {
@@ -38,7 +34,6 @@ public class Model {
         for (int arrayIndex = 0; arrayIndex < array.length; arrayIndex++) {
             array[arrayIndex] = randomNumberGenerator();
         }
-        view.showMessage(array);
     }
 
     public void inputTheMultiplyNumber() {
