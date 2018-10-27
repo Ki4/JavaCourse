@@ -3,7 +3,7 @@ package com.kichuk.streamtasks.Model;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Service{
+public class Service {
     public double averageNumberOfArray(int[] array) {
         return IntStream.of(array).average().getAsDouble();
     }
@@ -24,7 +24,7 @@ public class Service{
         return (int) IntStream.of(array).filter(arr -> arr > 0).count();
     }
 
-    public int[] multiplyArrayElements(int [] array){
+    public int[] multiplyArrayElements(int[] array) {
         return IntStream.of(array).map(arr -> arr * Model.getMultiplyNumber()).toArray();
     }
 }
