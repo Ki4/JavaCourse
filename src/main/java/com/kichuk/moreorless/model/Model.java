@@ -53,7 +53,7 @@ public class Model {
         return scanner.nextInt();
     }
 
-    private int generateRandomNumber(int lowerBoarder, int upperBoarder) {
+        private int generateRandomNumber(int lowerBoarder, int upperBoarder) {
         if (upperBoarder < 0) {
             upperBoarder *= -1;
         }
