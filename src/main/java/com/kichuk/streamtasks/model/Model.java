@@ -1,6 +1,6 @@
-package com.kichuk.streamtasks.Model;
+package com.kichuk.streamtasks.model;
 
-import com.kichuk.streamtasks.VIew.View;
+import com.kichuk.streamtasks.vIew.View;
 
 import java.util.Scanner;
 

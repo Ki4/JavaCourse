@@ -1,6 +1,6 @@
-package com.kichuk.streamtasks.Controller;
+package com.kichuk.streamtasks.controller;
 
-import com.kichuk.streamtasks.Model.Model;
+import com.kichuk.streamtasks.model.Model;
 
 public class Controller {
     private Model model;

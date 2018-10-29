@@ -1,4 +1,4 @@
-package com.kichuk.streamtasks.VIew;
+package com.kichuk.streamtasks.vIew;
 
 import java.util.stream.IntStream;
 

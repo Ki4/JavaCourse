@@ -1,8 +1,8 @@
-package com.kichuk.streamtasks;
+package com.kichuk.refelction;
 
-import com.kichuk.streamtasks.controller.Controller;
-import com.kichuk.streamtasks.model.Model;
-import com.kichuk.streamtasks.vIew.View;
+import com.kichuk.refelction.controller.Controller;
+import com.kichuk.refelction.model.Model;
+import com.kichuk.refelction.view.View;
 
 public class Main {
     public static void main(String[] args) {

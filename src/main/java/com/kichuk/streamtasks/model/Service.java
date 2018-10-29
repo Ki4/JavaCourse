@@ -1,4 +1,4 @@
-package com.kichuk.streamtasks.Model;
+package com.kichuk.streamtasks.model;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
