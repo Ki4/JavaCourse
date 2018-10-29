@@ -1,6 +1,6 @@
-package com.kichuk.refelction.model;
+package com.kichuk.reflection.model;
 
-import com.kichuk.refelction.view.View;
+import com.kichuk.reflection.view.View;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -32,6 +32,8 @@ public class Model {
     public void showNamesAboutClassAndInterface(Class <?> someClass){
         view.showNameOfTheClass(someClass.getName());
         view.showNameOfInterface(someClass.getInterfaces());
+
+
     }
 
     public double inputDoubleValidation() {

@@ -1,4 +1,4 @@
-package com.kichuk.refelction.util;
+package com.kichuk.reflection.util;
 
 public class UtilConstants {
     public static final String INCORRECT_INPUT = "Incorrect input, try again!";

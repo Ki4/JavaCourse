@@ -1,8 +1,8 @@
-package com.kichuk.refelction;
+package com.kichuk.reflection;
 
-import com.kichuk.refelction.controller.Controller;
-import com.kichuk.refelction.model.Model;
-import com.kichuk.refelction.view.View;
+import com.kichuk.reflection.controller.Controller;
+import com.kichuk.reflection.model.Model;
+import com.kichuk.reflection.view.View;
 
 public class Main {
     public static void main(String[] args) {

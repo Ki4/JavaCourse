@@ -1,4 +1,4 @@
-package com.kichuk.refelction.model;
+package com.kichuk.reflection.model;
 
 import lombok.Getter;
 import lombok.Setter;

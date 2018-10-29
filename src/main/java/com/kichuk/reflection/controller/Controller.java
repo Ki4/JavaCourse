@@ -1,7 +1,7 @@
-package com.kichuk.refelction.controller;
+package com.kichuk.reflection.controller;
 
-import com.kichuk.refelction.model.Model;
-import com.kichuk.refelction.model.Truck;
+import com.kichuk.reflection.model.Model;
+import com.kichuk.reflection.model.Truck;
 
 public class Controller {
     private Model model;

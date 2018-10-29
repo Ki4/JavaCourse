@@ -1,6 +1,6 @@
-package com.kichuk.refelction.model;
+package com.kichuk.reflection.model;
 
-import com.kichuk.refelction.view.View;
+import com.kichuk.reflection.view.View;
 
 public class Truck extends Car implements ITruck {
     private View view = new View();

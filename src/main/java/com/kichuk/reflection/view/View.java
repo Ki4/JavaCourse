@@ -1,6 +1,6 @@
-package com.kichuk.refelction.view;
+package com.kichuk.reflection.view;
 
-import static com.kichuk.refelction.util.UtilConstants.*;
+import static com.kichuk.reflection.util.UtilConstants.*;
 
 public class View {
     public void incorrectData() {

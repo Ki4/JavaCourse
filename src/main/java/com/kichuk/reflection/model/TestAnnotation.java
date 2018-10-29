@@ -1,4 +1,4 @@
-package com.kichuk.refelction.model;
+package com.kichuk.reflection.model;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
